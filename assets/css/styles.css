@@ -290,9 +290,9 @@ img{
     margin-bottom: var(--mb-2);
 }
 
-/*.home__scroll{
+.home__scroll{
     display: none;
-}*/
+}
 
 .home__scroll-button{
     color: var(--first-color);
@@ -311,7 +311,7 @@ img{
     font-size: var(--small-font-size);
     color: var(--title-color);
     font-weight: var(--font-medium);
-    margin-right: var(--mb-0-25);
+    scroll-margin-bottom: var(--mb-0-25);
 }
 
 .home__scroll-arrow{
