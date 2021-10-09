@@ -764,7 +764,7 @@
                         </div>
                     </div>
 
-                    <form name="contact" action="https://formsubmit.co/anuragrajanp@gmail.com" method="POST" id="ContactForm" class="contact__form grid">
+                    <form name="contact" action="contact-form.php" method="POST" id="ContactForm" class="contact__form grid">
                         <div class="contact__inputs grid">
                             <div class="contact__content">
                                 <label for="" class="contact__label">Name</label>
@@ -786,12 +786,17 @@
                             <input type="hidden" name="_captcha" value="false">
                             <input type="hidden" name="_subject" value="New Contact Form Submission">
                         </div>
-                        <div>
+                        <!--<div>
                             <a class="button button--flex" type="submit" onclick="SubmitEvent" id="submitButton">
                                 Send message
                                 <i class="uil uil-message project__icon button__icon"></i>
                             </a>
-                        </div>
+                        </div>-->
+                        <div class="contact__form">
+                            <button type="submit" id="submitButton" class="button button--flex">Send message
+                                <i class="uil uil-message project__icon button__icon"></i>
+                            </button>
+                        </div> 
                     </form>
                 </div>
             </section>
