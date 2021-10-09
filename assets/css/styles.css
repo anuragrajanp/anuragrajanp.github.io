@@ -758,7 +758,7 @@ img{
 
 .portfolio__img{
     width: 265px;
-    border-radius: .5rem;
+    border-radius: 0rem;
     justify-self: center;
 }
 
