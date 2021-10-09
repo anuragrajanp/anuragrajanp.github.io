@@ -774,18 +774,20 @@
                                 <label for="" class="contact__label">Email</label>
                                 <input name="email" type="email" class="contact__input" required>
                             </div>
-                            <div class="contact__content">
-                                <label for="" class="contact__label">Subject</label>
-                                <input name="subject" type="text" class="contact__input" required>
-                            </div>
-                            <div class="contact__content">
-                                <label for="" class="contact__label">Message</label>
-                                <textarea name="message" id="" cols="0" rows="7" class="contact__input" required></textarea>
-                                <input type="hidden" name="_captcha" value="false">
-                                <input type="hidden" name="_template" value="table">
-                                <input type="hidden" name="_subject" value="New submission to contact form!">
-                            </div>
-                            <a class="button button--flex" id="submitButton">
+                        </div>
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Subject</label>
+                            <input name="subject" type="text" class="contact__input" required>
+                        </div>
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Message</label>
+                            <textarea name="message" id="" cols="0" rows="7" class="contact__input" required></textarea>
+                            <input type="hidden" name="_template" value="table">
+                            <input type="hidden" name="_captcha" value="false">
+                            <input type="hidden" name="_subject" value="New Contact Form Submission">
+                        </div>
+                        <div>
+                            <a class="button button--flex" onclick="SubmitEvent" id="submitButton">
                                 Send message
                                 <i class="uil uil-message project__icon button__icon"></i>
                             </a>
