@@ -537,8 +537,8 @@ img{
     width: 10%;
 }
 
-.skills_photoshop{
-    width: 50%;
+.skills_lightroom{
+    width: 90%;
 }
 
 .skills_figma{
@@ -749,7 +749,7 @@ img{
 }
 
 .portfolio__content{
-    padding: 0 1.5rem;
+    padding: 0 1rem;
 }
 
 .portfolio__img{
@@ -941,16 +941,17 @@ img{
 }
 
 .footer__link:hover{
-    color: var(--first-color-lighter);
+    color: var(--first-color-second);
 }
 
 .footer__social{
     font-size: 1.25rem;
     margin-right: var(--mb-1-5);
+    color: var(--first-color-alt);
 }
 
 .footer__social:hover{
-    color: var(--first-color-lighter);
+    color: var(--first-color-second);
 }
 
 .footer__copy{
