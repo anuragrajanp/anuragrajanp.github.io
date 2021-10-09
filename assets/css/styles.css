@@ -753,9 +753,9 @@ img{
 }
 
 .portfolio__content{
-    padding: 2 .5rem;
+    padding: 0 .5rem;
     align-items: center;
-    gap: .5rem;
+    gap: 3rem;
 }
 
 .portfolio__img{
