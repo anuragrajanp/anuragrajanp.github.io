@@ -1312,6 +1312,7 @@ img{
 
     .home__blob{
         width: 320px;
+        right: 0;
     }
 
     .home__social{
