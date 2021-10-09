@@ -25,7 +25,7 @@
             <nav class="nav container">
                 <a href="#" class="nav__logo">Anurag</a>
 
-                <div class="nav__menu" id="nav__menu">
+                <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list" grid>
                         <li class="nav__item">
                             <a href="#home" class="nav__link active__link">
@@ -49,7 +49,12 @@
                         </li>
                         <li class="nav__item">
                             <a href="#contact" class="nav__link">
-                                <i class="uil uil-message nav__icon"></i>Contact Me
+                                <i class="uil uil-message nav__icon"></i>Contact
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#footer" class="nav__togglefirst" id="nav-toggle">
+                                <i class="uil uil-apps"></i>
                             </a>
                         </li>
                     </ul>
@@ -60,9 +65,9 @@
                     <!--Theme change button-->
                     <!--<i class="uil uil-moon change-theme" id="theme-button"></i>-->
     
-                    <div class="nav__toggle" id="nav-toggle">
+                    <a href="#footer" class="nav__toggle" id="nav-toggle">
                         <i class="uil uil-apps"></i>
-                    </div>
+                    </a>
                 </div>
             </nav>
         </header>
@@ -85,9 +90,6 @@
                             </a>
                             <a href="https://www.github.com/anuragrajanp" class="home__social-icon">
                                 <i class="uil uil-github"></i>
-                            </a>
-                            <a href="https://anuragrajanp.medium.com" class="home__social-icon">
-                                <i class="uil uil-medium-m"></i>
                             </a>
                         </div>
                     <div class="home__img">
@@ -161,7 +163,7 @@
             <!--==================== SKILLS ====================-->
             <section class="skills section container" id="skills">
                 <h2 class="section__title">Skills</h2>
-                <span class="section__subtitle">My technical level</span>
+                <span class="section__subtitle">Skills I earned</span>
 
                 <div class="skills__container grid">
                     
@@ -421,10 +423,10 @@
                             Education
                         </div>
 
-                        <div class="qualification__button button--flex" data-target="#certificates">
+                        <!--<div class="qualification__button button--flex" data-target="#certificates">
                             <i class="uil uil-award qualification__icon"></i>
                             Certificates
-                        </div>
+                        </div>-->
 
                         <!-- <div class="qualification__button button--flex" data-target="#work" >
                             <i class="uil uil-briefcase-alt qualification__icon"></i>
@@ -552,11 +554,11 @@
             </section>
 
             <!--==================== SERVICES ====================-->
-            <section class="services section" id="services">
+            <!--<section class="services section" id="services">
                 <h2 class="section__title">Services</h2>
                 <span class="section__subtitle">What I offer</span>
 
-                <div class="services__container container grid">
+                <div class="services__container container grid">-->
                     <!-- Services 1 -->
                     <!--<div class="services__content">
                         <div>
@@ -591,7 +593,7 @@
                         </div>
                     </div>-->
                     <!-- Services 2 -->
-                    <div class="services__content">
+                    <!--<div class="services__content">
                         <div>
                             <i class="uil uil-arrow services__icon"></i>
                             <h3 class="services__title">Frontend <br> Developer</h3>
@@ -614,7 +616,7 @@
                                 </ul>
                             </div>
                         </div>
-                    </div>
+                    </div>-->
                     <!-- Services 3 -->
                     <!--<div class="services__content">
                         <div>
@@ -647,9 +649,9 @@
                                 </ul>
                             </div>
                         </div>
-                    </div>-->
+                    </div>
                 </div>
-            </section>
+            </section>-->
 
 
             <!--==================== PORTFOLIO ====================-->
@@ -762,28 +764,28 @@
                         </div>
                     </div>
 
-                    <form name="contact" id="ContactForm" class="contact__form grid" data-netlify-recaptcha="true" data-netlify="true" action="/success/">
+                    <form name="contact" action="https://formsubmit.co/anuragrajanp@gmail.com" method="POST" id="ContactForm" class="contact__form grid" data-netlify-recaptcha="true" data-netlify="true" action="/success/">
                         <div class="contact__inputs grid">
                             <div class="contact__content">
                                 <label for="" class="contact__label">Name</label>
-                                <input name="name" type="text" class="contact__input">
+                                <input name="name" type="text" class="contact__input" required>
                             </div>
                             <div class="contact__content">
                                 <label for="" class="contact__label">Email</label>
-                                <input name="email" type="email" class="contact__input">
+                                <input name="email" type="email" class="contact__input" required>
                             </div>
                         </div>
                         <div class="contact__content">
                             <label for="" class="contact__label">Subject</label>
-                            <input name="project" type="text" class="contact__input">
+                            <input name="subject" type="text" class="contact__input" required>
                         </div>
                         <div class="contact__content">
                             <label for="" class="contact__label">Message</label>
-                            <textarea name="message" id="" cols="0" rows="7" class="contact__input"></textarea>
+                            <textarea name="message" id="" cols="0" rows="7" class="contact__input" required></textarea>
                         </div>
                         <div data-netlify-recaptcha="true"></div>
                         <div>
-                            <a class="button button--flex" id="submitButton">
+                            <a class="button button--flex" onclick="SubmitEvent" id="submitButton">
                                 Send message
                                 <i class="uil uil-message project__icon button__icon"></i>
                             </a>
@@ -796,7 +798,7 @@
 
 
         <!--==================== FOOTER ====================-->
-        <footer class="footer">
+        <footer class="footer" id="footer">
             <div class="footer__bg">
                 <div class="footer__container container grid">
                     <div>
@@ -806,10 +808,18 @@
                 
                     <ul class="footer__links">
                         <li>
+                            <a href="#about" class="footer__link">About</a>
+                        </li>
+                        <li>
                             <a href="anuragrajanp.medium.com" class="footer__link">Blog</a>
                         </li>
                         <li>
                             <a href="#contact" class="footer__link">Contact</a>
+                        </li>
+                        <li>
+                            <a href="#home" class="footer__link">
+                                <i class="uil uil-arrow-circle-up scroll-up__icon"></i>
+                            </a>
                         </li>
                     </ul>
 
@@ -837,16 +847,11 @@
                         </a>
                     </div>
                 </div>
-
-                <p class="footer__copy">Designed by <a href="#" class="copy__link">Anurag</a></p>
-            </div>
+                
         </footer>
         
         <!--==================== SCROLL TOP ====================-->
-        <a href="#home" class="scrollup" id="scroll-up">
-            <i class="uil uil-arrow-up scrollup__icon"></i>
-        </a>
-
+        
 
         <!--==================== SWIPER JS ====================-->
         <script src="assets/js/swiper-bundle.min.js"></script>

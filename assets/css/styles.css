@@ -194,6 +194,10 @@ img{
     padding: 0;
 }
 
+.nav__togglefirst{
+    color: #000;
+}
+
 .nav__logo,.nav__toggle{
     color: var(--title-color);
     font-weight: var(--font-medium);
@@ -293,7 +297,7 @@ img{
 .home__social{
     display: grid;
     grid-template-columns: max-content;
-    row-gap: .75rem;
+    row-gap: .5rem;
 }
 
 .home__social-icon{
@@ -947,12 +951,15 @@ img{
 .footer__social{
     display: grid;
     grid-template-rows: max-content;
-    column-gap: 10rem;
+    column-gap: 2rem;
+    align-items: center;
 }
 
 .footer__social-icon{
     font-size: 1.25rem;
     color: #FFF;
+    align-self: center;
+    align-items: center;
 }
 
 .footer__social:hover{
@@ -981,8 +988,8 @@ img{
 }
 /*========== SCROLL UP ==========*/
 
-.scrollup{
-    position: fixed;
+.scroll-up{
+    position: right;
     right: 1rem;
     bottom: -20%;
     background-color: var(--first-color);
@@ -994,12 +1001,12 @@ img{
     margin-right: -.7rem;
 }
 
-.scrollup:hover{
+.scroll-up:hover{
     background-color: var(--first-color-alt);
 }
 
-.scrollup__icon{
-    font-size: 1.5rem;
+.scroll-up__icon{
+    font-size: 1rem;
     color: #FFF;
 }
 
