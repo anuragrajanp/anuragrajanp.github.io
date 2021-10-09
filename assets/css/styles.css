@@ -754,12 +754,13 @@ img{
 
 .portfolio__content{
     padding: 0rem;
+    align-items: center;
 }
 
 .portfolio__img{
     width: 240px;
     border-radius: 0rem;
-    justify-items: center;
+    justify-items: left;
 }
 
 .portfolio_img_phone{
