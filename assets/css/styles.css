@@ -757,9 +757,9 @@ img{
 }
 
 .portfolio__img{
-    width: 265px;
+    width: 240px;
     border-radius: 0rem;
-    justify-self: center;
+    justify-items: center;
 }
 
 .portfolio_img_phone{
