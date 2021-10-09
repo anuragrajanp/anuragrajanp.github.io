@@ -771,11 +771,11 @@ img{
 
 .portfolio__title{
     font-size: var(--h3-font-size);
-    margin-bottom: var(--mb-0-3);
+    margin-bottom: var(--mb-0-2);
 }
 
 .portfolio__description{
-    margin-bottom: var(--mb-0-50);
+    margin-bottom: var(--mb-0-40);
 }
 
 .portfolio__button:hover .button__arrow{
