@@ -116,7 +116,7 @@ body{
     font-size: var(--normal-font-size);
     background-color: var(--body-color);
     color: var(--text-color);
-    /* padding-left: 5%;
+    /*padding-left: 5%;
     padding-right: 5%; */
 }
 
@@ -941,17 +941,22 @@ img{
 }
 
 .footer__link:hover{
-    color: var(--first-color-second);
-}
-
-.footer__social{
-    font-size: 1.25rem;
-    margin-right: var(--mb-1-5);
     color: var(--first-color-alt);
 }
 
+.footer__social{
+    display: grid;
+    grid-template-rows: max-content;
+    column-gap: 10rem;
+}
+
+.footer__social-icon{
+    font-size: 1.25rem;
+    color: #FFF;
+}
+
 .footer__social:hover{
-    color: var(--first-color-second);
+    color: var(--first-color-alt);
 }
 
 .footer__copy{
