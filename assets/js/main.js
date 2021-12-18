@@ -1,11 +1,3 @@
-/* Data Another */
-
-$(function() {
-  $('a').another();
-})
-
-/* Data Another added by Anurag Rajan 18/12/2021 */
-
 /*==================== MENU SHOW Y HIDDEN ====================*/
 const navMenu = document.getElementById('nav-menu'),
       navToggle = document.getElementById('nav-toggle'),

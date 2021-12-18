@@ -15,7 +15,7 @@
     --first-color-alt: hsl(var(--hue-color), 57%, 53%);
     --first-colour-lighter: hsl(var(--hue-color), 92%,85%);
     --title-color: hsl(var(--hue-color), 8%, 15%);
-    --text-color: hsl(var(--hue-color), 8%, 45%);
+    --text-color: hsl(var(--hue-color), 8%, 0%);
     --text-color-light: hsl(var(--hue-color), 8%, 65%);
     --input-color: hsl(var(--hue-color), 70%, 96%);
     --body-color: hsl(var(--hue-color), 60%, 99%);
@@ -29,7 +29,7 @@
     --h1-font-size: 1.5rem;
     --h2-font-size: 1.25rem;
     --h3-font-size: 1.125rem;
-    --normal-font-size: .938rem;
+    --normal-font-size: 1rem;
     --small-font-size: .813rem;
     --smaller-font-size: .75rem;
 
@@ -448,48 +448,6 @@ img{
 }
 
 .about__buttons{
-    display: flex;
-    justify-content: center;
-}
-
-.button:hover .uil-file-download-alt{
-    transform: translateY(.15rem)
-}
-
-/*==================== ABOUT PAGE ====================*/
-.aboutpage__img{
-    width: 200px;
-    border-radius: .75rem;
-    justify-self: center;
-    align-self: center;
-}
-
-.aboutpage__description{
-    text-align: center;
-    margin-bottom: var(--mb-2-5);
-}
-
-.aboutpage__info-title{
-    font-size: var(--h2-font-size);
-    font-weight: var(--font-semi-bold);
-    color: var(--title-color);
-}
-
-.aboutpage__info{
-    display: flex;
-    justify-content: space-evenly;
-    margin-bottom: var(--mb-2-5);
-}
-.aboutpage__info-name{
-    font-size: var(--small-font-size);
-}
-
-.aboutpage__info-title,.aboutpage__info-name{
-    display: block;
-    text-align: center;
-}
-
-.aboutpage__buttons{
     display: flex;
     justify-content: center;
 }
@@ -1165,7 +1123,7 @@ img{
         justify-self: center;
     }
 
-    .about__container,.aboutpage__container,.skills__container,
+    .about__container,.skills__container,
     .portfolio__content,.project__container,
     .contact__container,.footer__container
     {
@@ -1276,26 +1234,6 @@ img{
     }
 
     .about__buttons{
-        justify-content: center;
-    }
-
-    .aboupage__container{
-        column-gap: 5rem;
-    }
-
-    .aboutpage__img{
-        width: 350px;
-    }
-
-    .aboutpage__description{
-        text-align: initial;
-    }
-
-    .aboutpage__info{
-        justify-content: space-between;
-    }
-
-    .aboutpage__buttons{
         justify-content: center;
     }
 
