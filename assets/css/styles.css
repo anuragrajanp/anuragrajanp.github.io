@@ -952,7 +952,7 @@ img{
 .footer__links{
     display: flex;
     flex-direction: column;
-    row-gap: 1.5rem;
+    row-gap: 1.7rem;
 }
 
 .footer__link:hover{
@@ -962,12 +962,12 @@ img{
 .footer__social{
     display: grid;
     grid-template-rows: max-content;
-    row-gap: 1.5rem;
+    row-gap: 1.7rem;
     align-items: center;
 }
 
 .footer__social-icon{
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     color: #FFF;
     align-self: center;
     justify-items: center;
@@ -1289,7 +1289,7 @@ img{
         padding: 3rem 0 3.5rem;
     }
 
-    .footer__links{
+    .footer__link{
         flex-direction: row;
         column-gap: 2rem;
     }
