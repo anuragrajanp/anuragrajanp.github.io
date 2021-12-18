@@ -1,2 +1,2 @@
-# Responsive Portfolio Website
-Responsive Portfolio Website with a beautiful user interface.
+# Personal Website
+Responsive Portfolio Website of Anurag Rajan.
