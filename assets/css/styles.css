@@ -216,7 +216,7 @@ img{
     color: var(--first-color);
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
     .nav__menu{
         position: fixed;
         bottom:-100%;
@@ -414,7 +414,7 @@ img{
     background-color: transparent;
     color: var(--first-color-alt);
 }
-/*==================== INDEX ABOUT ====================*/
+/*==================== ABOUT ====================*/
 .about__img{
     width: 200px;
     border-radius: .75rem;
@@ -818,6 +818,7 @@ img{
 /*==================== PROJECT IN MIND ====================*/
 
 .project{
+    max-width:max-content;
     text-align: center;
 }
 
@@ -1144,8 +1145,8 @@ img{
 
 @media screen and (min-width: 768px){
     .container{
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 100%;
+        margin-right: 100%;
     }
     
     body{
