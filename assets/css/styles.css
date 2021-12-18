@@ -818,7 +818,7 @@ img{
 /*==================== PROJECT IN MIND ====================*/
 
 .project{
-    max-width:max-content;
+    max-width: 100%;
     text-align: center;
 }
 
