@@ -16,7 +16,7 @@
     --first-colour-lighter: hsl(var(--hue-color), 92%,85%);
     --title-color: hsl(var(--hue-color), 8%, 15%);
     --text-color: hsl(var(--hue-color), 8%, 15%);
-    --text-color-light: hsl(var(--hue-color), 8%, 65%);
+    --text-color-light: hsl(var(--hue-color), 8%, 45%);
     --input-color: hsl(var(--hue-color), 70%, 96%);
     --body-color: hsl(var(--hue-color), 60%, 99%);
     --container-color: #FFF;
@@ -29,7 +29,7 @@
     --h1-font-size: 1.5rem;
     --h2-font-size: 1.25rem;
     --h3-font-size: 1.125rem;
-    --normal-font-size: 1rem;
+    --normal-font-size: .938rem;
     --small-font-size: .813rem;
     --smaller-font-size: .75rem;
 
@@ -216,7 +216,7 @@ img{
     color: var(--first-color);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .nav__menu{
         position: fixed;
         bottom:-100%;
@@ -455,7 +455,6 @@ img{
 .button:hover .uil-file-download-alt{
     transform: translateY(.15rem)
 }
-
 /*==================== SKILLS ====================*/
 .skills__container{
     row-gap: 0;
@@ -818,7 +817,6 @@ img{
 /*==================== PROJECT IN MIND ====================*/
 
 .project{
-    max-width: 100%;
     text-align: center;
 }
 
