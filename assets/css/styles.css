@@ -423,7 +423,7 @@ img{
 }
 
 .about__description{
-    text-align: center;
+    text-align: initial;
     margin-bottom: var(--mb-2-5);
 }
 
