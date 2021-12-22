@@ -1,6 +1,6 @@
 # anuragrajan.ml
 
-Github repo for <a href="www.anuragrajan.ml">Anurag's Website</a>
+Github repo for <a href="https://www.anuragrajan.ml">Anurag's Website</a>
 
 ## How to get your own?
 1. Fork the repo
