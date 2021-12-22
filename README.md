@@ -1,5 +1,5 @@
 anuragrajan.ml
-======================
+
 
 Github repo for Anurag's Website
 
