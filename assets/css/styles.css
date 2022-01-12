@@ -317,6 +317,10 @@ img{
     color: var(--first-colour-second);
 }
 
+.home__social-icon1:hover{
+    color: var(--first-color);
+}
+
 .home__blob{
     width: 200px;
     fill: var(--first-color);
@@ -478,7 +482,7 @@ img{
 }
 
 .india__info-title{
-    font-size: var(--h2-font-size);
+    font-size: var(--h1-font-size);
     font-weight: var(--font-semi-bold);
     color: var(--title-color);
 }
