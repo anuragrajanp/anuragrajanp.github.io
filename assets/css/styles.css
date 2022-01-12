@@ -936,7 +936,7 @@ img{
 }
 
 .contact__icon:hover{
-    color: var(--first-colour-lighter);
+    color: var(--first-colour-second);
 }
 .contact__title{
     font-size: var(--h3-font-size);
