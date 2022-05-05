@@ -7,7 +7,7 @@
 
     /*========== Colors ==========*/
     /* Change favorite color */
-    --hue-color: 230; /*Purple 250 - Green 142 - Blue 230 - Pink 340  https://www.w3schools.com/colors/colors_hsl.asp*/
+    --hue-color: 250; /*Purple 250 - Green 142 - Blue 230 - Pink 340  https://www.w3schools.com/colors/colors_hsl.asp*/
 
     /* HSL color mode */
     --first-color: hsl(var(--hue-color), 69%, 61%);
@@ -339,7 +339,7 @@ img{
 }
 
 .home__subtitle{
-    font-size: var(--h3-font-size);
+    font-size: var(--h4-font-size);
     color: var(--text-color);
     font-weight: var(--font-medium);
     margin-bottom: var(--mb-0-75);
@@ -460,6 +460,68 @@ img{
 }
 
 .about__buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.button:hover .uil-file-download-alt{
+    transform: translateY(.15rem)
+}
+
+
+/*==================== ABOUT PAGE ====================*/
+.aboutpage__img{
+    width: 200px;
+    border-radius: .75rem;
+    justify-self: center;
+    align-self: center;
+}
+
+.aboutpage__description{
+    text-align: left;
+    font-weight: 400;
+    line-height: 200%;
+    font_family: ;
+    font-size: large;
+    margin-bottom: var(--mb-2-5);
+}
+
+.aboutpage__title{
+    font-size: var(--big-font-size);
+}
+
+.aboutpage__subtitle{
+    font-size: var(--h4-font-size);
+    color: var(--text-color);
+    font-weight: var(--font-medium);
+    margin-bottom: var(--mb-0-75);
+}
+
+.aboutpage__description{
+    margin-bottom: var(--mb-2);
+}
+
+.aboutpage__info-title{
+    font-size: var(--h2-font-size);
+    font-weight: var(--font-semi-bold);
+    color: var(--title-color);
+}
+
+.aboutpage__info{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: var(--mb-2-5);
+}
+.aboutpage__info-name{
+    font-size: var(--small-font-size);
+}
+
+.aboutpage__info-title,.about__info-name{
+    display: block;
+    text-align: center;
+}
+
+.aboutpage__buttons{
     display: flex;
     justify-content: center;
 }
