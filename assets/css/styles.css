@@ -481,16 +481,16 @@ img{
     text-align: left;
     font-weight: 400;
     line-height: 200%;
-
     font_family: ;
     font-size: large;
     margin-bottom: var(--mb-2-5);
 }
 
-a:link {
+.aboutpage__link{
     color: var(--first-color);
-    text-decoration: none;
+    text-decoration: palegreen;
 }
+
 
 .aboutpage__title{
     font-size: var(--big-font-size);
