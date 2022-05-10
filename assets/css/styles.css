@@ -481,9 +481,15 @@ img{
     text-align: left;
     font-weight: 400;
     line-height: 200%;
+
     font_family: ;
     font-size: large;
     margin-bottom: var(--mb-2-5);
+}
+
+a:link {
+    color: var(--first-color);
+    text-decoration: none;
 }
 
 .aboutpage__title{
@@ -495,10 +501,6 @@ img{
     color: var(--text-color);
     font-weight: var(--font-medium);
     margin-bottom: var(--mb-0-75);
-}
-
-.aboutpage__description{
-    margin-bottom: var(--mb-2);
 }
 
 .aboutpage__info-title{
