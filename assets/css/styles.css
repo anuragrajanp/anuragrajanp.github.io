@@ -879,14 +879,14 @@ img{
 }
 
 .portfolio__img{
-    width: 240px;
+    width: auto;
     border-radius: 0rem;
     justify-items: left;
 }
 
 .portfolio_img_phone{
     width: auto;
-    height: 400px;
+    height: auto;
 }
 
 .portfolio__title{
@@ -1108,7 +1108,7 @@ img{
 }
 
 .copy__link:hover{
-    color: yellow;
+    color: var(--first-colour-lighter);
 }
 
 .footer__title,
