@@ -1082,7 +1082,7 @@ img{
 .footer__social{
     display: grid;
     grid-template-rows: max-content;
-    row-gap: 2rem;
+    row-gap: 2.1rem;
     align-items: center;
 }
 
