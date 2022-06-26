@@ -1104,6 +1104,7 @@ img{
     margin-top: var(--mb-3);
 }
 .copy__link{
+    text-decoration: none;
     color: var(--first-color-lighter);
 }
 
