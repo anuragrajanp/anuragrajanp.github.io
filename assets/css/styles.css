@@ -22,7 +22,7 @@
     --container-color: #FFF;
 
     /*========== Font and typography ==========*/
-    --body-font: 'Poppins', sans-serif;;
+    --body-font: 'Poppins', sans-serif;
 
     /* .5rem = 8px, 1rem = 16px, 1.5rem = 24px ... */
     --big-font-size: 2rem ;
@@ -1101,6 +1101,7 @@ img{
 }
 
 .footer__copy{
+    font-family: 'Alata', sans-serif;
     font-size: var(--smaller-font-size);
     text-align: center;
     color: #f0f0f0;
