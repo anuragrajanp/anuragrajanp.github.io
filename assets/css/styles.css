@@ -335,6 +335,7 @@ img{
 }
 
 .home__title{
+    font-family: 'JoseFin Sans', sans-serif;
     font-size: var(--big-font-size);
 }
 
