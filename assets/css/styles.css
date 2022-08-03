@@ -199,6 +199,7 @@ img{
 }
 
 .nav__logo,.nav__toggle{
+    font-family: 'Alata', sans-serif;
     color: var(--title-color);
     font-weight: var(--font-medium);
 }
